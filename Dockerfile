@@ -1,4 +1,4 @@
-FROM tomcat:10.0.44-jdk17
+FROM tomcat:10.1-jdk17
 
 # Xóa webapps mặc định để gọn container
 RUN rm -rf /usr/local/tomcat/webapps/*
